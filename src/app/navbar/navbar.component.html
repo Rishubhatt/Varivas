@@ -1,0 +1,44 @@
+<div>
+  <div class="topsection">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="dark_nav">
+
+      <div class="col-lg-12 nav nav-justified">
+        <a class="navbar-brand" href="#">Varivas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+            
+          </ul>
+          <button class="btn btn-warning" type="submit" *ngIf="(afAuth.authState | async) === null" (click)="signIn()"><span>Login Now</span></button>
+          <button class="btn btn-warning" type="submit" *ngIf="(afAuth.authState | async)" (click)="signOut()"><span>SignOut Now</span></button>
+
+        </div>
+      </div>
+    </nav>
+   
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <div class="auth">
+    <div *ngIf="afAuth.authState | async as user">
+      <h2>Your are logged in as {{user.displayName}}</h2>
+    </div>
+  </div>
+
+</div>
+

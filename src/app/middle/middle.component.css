@@ -1,0 +1,29 @@
+.container-fluid {
+  height: 1040px;
+  width: 100%;
+  margin: 0px;
+  padding: 100px 100px;
+  
+}
+
+.col-lg-6{
+    margin:0 auto;
+    text-align:center;
+}
+
+h2{
+    color:#ff6a00;
+    font:normal normal 600 36px;
+}
+
+p {
+  color: #000000;
+  font: normal normal 400 24px;
+}
+
+
+@media(max-width:967px) {
+  .col-lg-6{
+    margin-bottom: 150px;
+  }
+}

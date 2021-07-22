@@ -1,0 +1,85 @@
+
+.center {
+  margin: 0 auto;
+  -webkit-animation: colorchange 10s infinite alternate;
+  height:50px;
+  width:100px;
+  border-radius:30px;
+}
+
+
+
+@-webkit-keyframes colorchange {
+  0% {
+    background-color: blue; 
+
+  }
+
+
+  20% {
+    background-color: lawngreen;
+  }
+
+
+  40% {
+    background-color: #ffc40b;
+  }
+
+
+  60% {
+    background-color: palevioletred;
+  }
+
+  80% {
+    background-color: #074114;
+  }
+
+  100% {
+    background-color: red;
+  }
+
+ 
+
+
+}
+
+
+
+#spin {
+  color: white;
+  font: normal normal 600 24px Roboto;
+}
+
+  #spin:after {
+    content: "";
+    animation: spin 5s linear infinite;
+  }
+
+@keyframes spin {
+  0% {
+    content: "ipsum";}
+
+
+  20% {
+    content: "sit";  }
+
+
+  40% {
+    content: "con"; }
+
+
+
+  60% {
+    content: "elit"; }
+
+
+  80% {
+    content: "atque";
+  }
+
+  100% {
+    content: "auu";
+  }
+
+
+}

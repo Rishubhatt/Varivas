@@ -1,0 +1,48 @@
+.container-fluid {
+  height: 900px;
+  background-color: #d9eaf7;
+  width:100%;
+  margin:0px;
+  padding: 0 0;
+  padding-top:30rem;
+ 
+  overflow:hidden;
+}
+
+.row{
+    text-align:center;
+    
+}
+
+h2{
+    font: normal normal 600 84px Roboto;
+    margin-bottom:0px;
+}
+
+h6 {
+ position:absolute;
+  top: 100px;
+  left:48%;
+  font: normal normal 600 24px Roboto;
+  margin:0 auto;
+
+}
+
+img{
+   margin:0px;
+   margin-top:-20px;  
+    
+}
+
+.center {
+  position: absolute;
+  top: 450px;
+  left:55%;
+  padding:10px;
+}
+
+@media(max-width:967px) {
+  h6 {
+    left:35%;
+  }
+}

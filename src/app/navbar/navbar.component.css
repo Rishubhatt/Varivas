@@ -1,0 +1,89 @@
+/*           NAVBAR AREA                     */
+
+/* DARK NAVBAR  AND SECTION*/
+
+#dark_nav {
+  height: 84px;
+  width: auto;
+  margin: 0 auto;
+  transition: 500ms ease;
+}
+
+  #dark_nav .nav-item .nav-link {
+    text-align: left;
+    font: normal normal 800 20px/25px Karla;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    opacity: 1;
+  }
+
+  #dark_nav .navbar-brand {
+    margin-right: 0rem;
+  }
+
+  #dark_nav .navbar-toggler {
+    position: absolute;
+    left: 80%;
+  }
+
+.topsection .col-lg-12 ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+  .topsection .col-lg-12 ul li {
+    margin: auto 2rem;
+    text-align: center;
+  }
+
+
+
+
+  .topsection #dark_nav .col-lg-12 {
+    padding: 0 4.5rem;
+  }
+
+
+  .topsection #dark_nav .btn {
+    color: white;
+    width: 189px;
+    height: 52px;
+    background: #E08015 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    border: none;
+  }
+
+    .topsection #dark_nav .btn span {
+      font: normal normal 500 24px Karla;
+      letter-spacing: 0px;
+      text-align: center;
+      height: 28px;
+      letter-spacing: 0px;
+      color: #fff;
+      opacity: 1;
+    }
+
+.navbar-toggler {
+  background: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.auth {
+  
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 150px;
+  height:auto;
+}
+
+  .auth h2 {
+    color: #E08015;
+    font: normal normal 400 24px Roboto;
+    letter-spacing: 0px;
+    text-align: center;
+    
+    
+  }

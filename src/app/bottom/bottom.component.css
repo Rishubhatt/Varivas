@@ -1,0 +1,53 @@
+.container-fluid {
+  height: 1040px;
+  width: 100%;
+  margin: 0px;
+  padding: 100px 100px;
+  background-color: #fdfafa;
+}
+
+.col-lg-6 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+iframe{
+    position: absolute;
+
+    z-index:2;
+    left:40.5%;
+    top:1840px;
+}
+
+img {
+
+  z-index: 0;
+  position: absolute;
+  left: 40%;
+  top: 1820px;
+}
+
+h2 {
+  color: #ff6a00;
+  font: normal normal 600 36px;
+}
+
+p {
+  color: #000000;
+  font: normal normal 400 24px;
+}
+
+
+@media(max-width:967px) {
+  img{
+    left:25%;
+    top:2500px;
+  }
+
+  iframe{
+      left:27%;
+      top:2520px;
+  }
+}
